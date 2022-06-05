@@ -1,3 +1,8 @@
+header{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
 .section-1{
     grid-template-rows:80px ;
     align-items: center;
@@ -6,6 +11,11 @@
     grid-template-columns: repeat(9,auto);
     padding-left: 80px;
     /* margin-left: 30px; */
+
+}
+.center{
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
 
 }
 
@@ -49,12 +59,63 @@ main > .section-3r{
 .section-5{
     display: flex;
     width: 25%;
-    height: 350px;
-    flex-wrap: wrap;
+    height: 500px;
+    /* flex-wrap: wrap; */
     background-color: rgb(199, 221, 224);
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
-.section-45> h4{
+.section-5> h4{
     padding: 10px;
     font-size: 30px;
+    height: 300px;
+}
+.section-6{
+    /* height: 400px; */
+    padding: 600px;
+}
+/* <-----------------------------------------------------right-1------------------------------------------------> */
+.right-1{
+    display: none;
+}
+#All{
+    width: 43px;
+    height: 35px;
+    
+
+}
+.input{
+    /* width: 60%; */
+    height: 28px;
+}
+/* .fa-magnifying-glass{
+   font-size: large;
+} */
+.center-2{
+    display: grid;
+    align-items: center;
+}
+.center-1{
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+.block{
+    display: block
+    
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat();
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 20px;
+    height: 300px;
+    /* background-color: rgb(63, 61, 61); */
+    
+}
+.block{
+    position: relative;
+}
+input{
+    position: absolute;
 }
